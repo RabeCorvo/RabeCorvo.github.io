@@ -295,6 +295,8 @@ center {
     font-size: 1.5vw;
     padding-left: 5vw;
     padding-right: 5vw;
+    transition: transform 2s;
+    transform: scale(1.0);
 }
 
 /* Anchor elements */
@@ -316,6 +318,8 @@ img {
     height: 100%;
     margin: auto auto auto auto;
     display: block;
+    transition: transform 1s;
+    transform: scale(1.0);
 }
 
 /* Center align element hover effect */
@@ -418,6 +422,7 @@ button {
     cursor: pointer;
     width: 100%;
     height: auto;
+
 }
 
 /* Hover effect for buttons */
