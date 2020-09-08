@@ -44,6 +44,8 @@ body.fade-out {
     -webkit-animation: movenavText 5.75s;
         animation: movenavText 5.75s;
     letter-spacing: .2vw;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
 }
 
 @keyframes moveNav {
@@ -65,7 +67,7 @@ body.fade-out {
 .Navbar a:hover {
     background-color: #f4f4f4;
     color: black;
-    font-weight: bold;
+    /* font-weight: bold; */
     cursor: pointer;
     -webkit-transition-duration: 1s;
     transition-duration: 1s;
