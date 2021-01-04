@@ -323,11 +323,12 @@ img {
     transform: scale(1.0);
 }
 
-/* Center align element hover effect */
+/* Center align element hover effect
 center:hover {
     transition: transform 2s;
-    transform: scale(1.1);
+    transform: scale(1.01);
 }
+*/
 
 /* Paragraph element hover effect 
 p:hover {
